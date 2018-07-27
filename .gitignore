@@ -20,6 +20,7 @@ bld/
 [Oo]utput/
 [Bb]uild/
 
+
 # Roslyn cache directories
 *.ide/
 
@@ -185,13 +186,9 @@ UpgradeLog*.htm
 FakesAssemblies/
 Unity.Mvc.3.5.1404.0
 packages
-/src/Winlab.Web/Winlab.Web/UploadFiles/NIRExcelImport
-/src/Winlab.API/sonar-project.properties
-/.sonar/SonarLint.Runner
-/.sonar
-/src/Winlab.Web/Winlab.Web/MineralsFileFolder
-/src/Winlab.Web/Winlab.Web/SampleImages/N_HAG_050217
-/src/Winlab.Web/Winlab.Web/UploadFiles
-/src/Winlab.Web/Winlab.Web/WinlabReports
-/src/Winlab.Web/sonar-project.properties
-/sonar-project.properties
+
+# ignore nuget
+.nuget
+
+
+
