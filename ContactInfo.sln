@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactInfo", "ContactInfo\ContactInfo.csproj", "{EA289506-1447-46DC-8A0E-04CBFBDB3E8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19627A44-C779-4A5A-B2AF-62980F4FBE0E} = {19627A44-C779-4A5A-B2AF-62980F4FBE0E}
+		{CC659C69-F790-4DB9-8E3D-278543F91752} = {CC659C69-F790-4DB9-8E3D-278543F91752}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactInfo.Services", "ContactInfo.Services\ContactInfo.Services.csproj", "{CC659C69-F790-4DB9-8E3D-278543F91752}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19627A44-C779-4A5A-B2AF-62980F4FBE0E} = {19627A44-C779-4A5A-B2AF-62980F4FBE0E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactInfo.Data", "ContactInfo.Data\ContactInfo.Data.csproj", "{B0CF1AE5-83B2-4933-8A2C-A88EB1726703}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19627A44-C779-4A5A-B2AF-62980F4FBE0E} = {19627A44-C779-4A5A-B2AF-62980F4FBE0E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactInfo.ViewModels", "ContactInfo.ViewModels\ContactInfo.ViewModels.csproj", "{19627A44-C779-4A5A-B2AF-62980F4FBE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactInfoAPI", "ContactInfoAPI\ContactInfoAPI.csproj", "{3D6178A8-F51C-4165-847B-DEF67A007A8B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19627A44-C779-4A5A-B2AF-62980F4FBE0E} = {19627A44-C779-4A5A-B2AF-62980F4FBE0E}
+		{B0CF1AE5-83B2-4933-8A2C-A88EB1726703} = {B0CF1AE5-83B2-4933-8A2C-A88EB1726703}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactInfo.Utilitieslib", "ContactInfo.Utilitieslib\ContactInfo.Utilitieslib.csproj", "{DED28C86-2ACA-4E05-9DF1-4BEBE81E8C47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{140AB8F8-7C8A-4AF5-A9FD-CA199D3B7586}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA289506-1447-46DC-8A0E-04CBFBDB3E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA289506-1447-46DC-8A0E-04CBFBDB3E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA289506-1447-46DC-8A0E-04CBFBDB3E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA289506-1447-46DC-8A0E-04CBFBDB3E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC659C69-F790-4DB9-8E3D-278543F91752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC659C69-F790-4DB9-8E3D-278543F91752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC659C69-F790-4DB9-8E3D-278543F91752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC659C69-F790-4DB9-8E3D-278543F91752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CF1AE5-83B2-4933-8A2C-A88EB1726703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CF1AE5-83B2-4933-8A2C-A88EB1726703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CF1AE5-83B2-4933-8A2C-A88EB1726703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CF1AE5-83B2-4933-8A2C-A88EB1726703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19627A44-C779-4A5A-B2AF-62980F4FBE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19627A44-C779-4A5A-B2AF-62980F4FBE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19627A44-C779-4A5A-B2AF-62980F4FBE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19627A44-C779-4A5A-B2AF-62980F4FBE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6178A8-F51C-4165-847B-DEF67A007A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6178A8-F51C-4165-847B-DEF67A007A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6178A8-F51C-4165-847B-DEF67A007A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6178A8-F51C-4165-847B-DEF67A007A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED28C86-2ACA-4E05-9DF1-4BEBE81E8C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED28C86-2ACA-4E05-9DF1-4BEBE81E8C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED28C86-2ACA-4E05-9DF1-4BEBE81E8C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED28C86-2ACA-4E05-9DF1-4BEBE81E8C47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
