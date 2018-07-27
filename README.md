@@ -7,17 +7,17 @@ About the Project
 Project Description:
 Design and implement a production ready application for maintaining contact information.
 Expected functionality:
-add a contact
-list contacts
-edit contact
-delete contact
+>>add a contact
+>>list contacts
+>>edit contact
+>>delete contact
 
 Required Contact model:
-First Name
-Last Name
-Email
-Phone Number
-Status (Possible values: Active/Inactive)
+>>First Name
+>>Last Name
+>>Email
+>>>>Phone Number
+>>Status (Possible values: Active/Inactive)
 
 Getting Started
 IDE: Visual Studio 2013
